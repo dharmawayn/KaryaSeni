@@ -1,0 +1,65 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/textsign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#006400"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/namae"
+        android:id="@+id/text2"
+        android:layout_marginTop="120dp">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/emaileditUp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#FFFFFF"
+        android:hint="  Email"
+        android:layout_below="@+id/textsign"
+        />
+
+    <EditText
+        android:id="@+id/pweditUp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#FFFFFF"
+        android:hint="  Password"
+        android:layout_below="@+id/emaileditUp"
+        />
+
+    <Button
+        android:id="@+id/btnUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pweditUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Sign Up" />
+
+
+</RelativeLayout>
